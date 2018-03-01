@@ -129,4 +129,8 @@ class Logger
             fclose($this->fileHandle);
         }
     }
+
+    public function bla(){
+        return 'bla';
+    }
 }
